@@ -23,7 +23,7 @@ music() {
         fi
         ;;
       -stop | -s)
-        osascript ./appleScripts/volume.applescript "$2"
+        osascript ./appleScripts/pause.applescript "$2"
         ;;
       -play | -p)
         osascript ./appleScripts/play.applescript "$2"
