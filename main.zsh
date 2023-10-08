@@ -2,7 +2,7 @@
 
 music() {
   if [[ -z $1 ]]; then
-    echo "Playing default music..."
+    ./help.zsh
   else
     case $1 in
       -open | -o)
@@ -35,7 +35,8 @@ music() {
         osascript ./appleScripts/current.applescript "$2"
         ;;
       *)
-        echo "Invalid option flag. Please use -a, -b, or -c."
+        ./help.zsh
+        echo "Invalid option flag."
         ;;
     esac
   fi
