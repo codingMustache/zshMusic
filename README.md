@@ -7,7 +7,7 @@ Download or clone down the repo.
 &
 add this line to your rc file
 ```bash
-source ~/add/to/your/.shrc/main.zsh
+source ~/add/to/your/.shrc/zshMusic/main.zsh
 ```
 
 ## How to use
