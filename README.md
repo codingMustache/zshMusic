@@ -19,5 +19,3 @@ source ~/add/to/your/.shrc/zshMusic/main.zsh
 | -play    | -p  | Plays Music                | `music -p`           |
 | -next    | -n  | Skips song                 | `music -n`           |
 | -current | -c  | Shows current track        | `music -c`           |
-
-
