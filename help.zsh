@@ -19,7 +19,7 @@ ex2="music -v 10"
 
 com3="-artist"
 cmd3="-a"
-des3="Plays artist from library"
+des3="Plays artist from lib"
 ex3="music -a metallica"
 
 com4="-stop"
@@ -57,19 +57,19 @@ sleep 0.01
 echo ""
 sleep 0.01
 # Print the table headers
-printf "%-10s %-5s %-30s %-15s\n" "$header1" "$header2" "$header3" "$header4"
+printf "%-10s %-5s %-25s %-10s\n" "$header1" "$header2" "$header3" "$header4"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com1" "$cmd1" "$des1" "$ex1"
+printf "%-10s %-5s %-25s %-10s\n" "$com1" "$cmd1" "$des1" "$ex1"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com2" "$cmd2" "$des2" "$ex2"
+printf "%-10s %-5s %-25s %-10s\n" "$com2" "$cmd2" "$des2" "$ex2"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com3" "$cmd3" "$des3" "$ex3"
+printf "%-10s %-5s %-25s %-10s\n" "$com3" "$cmd3" "$des3" "$ex3"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com4" "$cmd4" "$des4" "$ex4"
+printf "%-10s %-5s %-25s %-10s\n" "$com4" "$cmd4" "$des4" "$ex4"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com5" "$cmd5" "$des5" "$ex5"
+printf "%-10s %-5s %-25s %-10s\n" "$com5" "$cmd5" "$des5" "$ex5"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com6" "$cmd6" "$des6" "$ex6"
+printf "%-10s %-5s %-25s %-10s\n" "$com6" "$cmd6" "$des6" "$ex6"
 sleep 0.01
-printf "%-10s %-5s %-30s %-15s\n" "$com7" "$cmd7" "$des7" "$ex7"
+printf "%-10s %-5s %-25s %-10s\n" "$com7" "$cmd7" "$des7" "$ex7"
 sleep 0.01
