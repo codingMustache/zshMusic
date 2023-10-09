@@ -1,7 +1,7 @@
 #!/bin/zsh
-dir="$(dirname "$0")"
-echo $dir
+
 music() {
+dir="$(dirname "$0")"
   if [[ -z $1 ]]; then
     help
   else
