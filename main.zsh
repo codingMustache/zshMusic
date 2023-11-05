@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-dir="$(dirname "${0:A}")"
+dir="$(dirname "${0:A}")/appleScripts"
 
 music() {
   if [[ -z $1 ]]; then
@@ -8,33 +8,33 @@ music() {
   else
     case $1 in
       -open | -o)
-          osascript $dir/appleScripts/open.applescript
+          osascript $dir/open.applescript
         ;;
       -artist | -a)
         if [[ -z $2 ]]; then
           echo "You Need to pass an Artist"
         else
-          osascript $dir/appleScripts/playArtist.applescript "$2"
+          osascript $dir/playArtist.applescript "$2"
         fi
         ;;
       -vol | -v)
         if [[ -z $2 ]]; then
           echo "This set volume 0-100"
         else
-          osascript $dir/appleScripts/volume.applescript "$2"
+          osascript $dir/volume.applescript "$2"
         fi
         ;;
       -stop | -s)
-        osascript $dir/appleScripts/pause.applescript "$2"
+        osascript $dir/pause.applescript "$2"
         ;;
       -play | -p)
-        osascript $dir/appleScripts/play.applescript "$2"
+        osascript $dir/play.applescript "$2"
         ;;
       -next | -n)
-        osascript $dir/appleScripts/next.applescript "$2"
+        osascript $dir/next.applescript "$2"
         ;;
       -current | -c)
-        osascript $dir/appleScripts/current.applescript "$2"
+        osascript $dir/current.applescript "$2"
         ;;
       *)
         help
