@@ -36,6 +36,9 @@ music() {
       -current | -c)
         osascript $dir/current.applescript "$2"
         ;;
+      -help | -h)
+        help
+        ;;
       *)
         help
         echo "Invalid option flag."
