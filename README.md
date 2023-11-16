@@ -5,7 +5,7 @@ A cli tool to use apple music through your command line. Feel free to make a bra
 
 Download or clone down the repo & add this line to your .zshrc file
 ```bash
-source ~/add/to/your/.shrc/zshMusic/main.zsh
+source ~/add-to-your-.zshrc/zshMusic/zshmusic.zsh
 ```
 
 ## How to use
