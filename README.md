@@ -1,5 +1,5 @@
 # zshMusic
-A cli tool to use apple music through your command line. Feel free to make a branch and make any kind of modifications and make a PR to it, tbh I'll most likely merge it, or don't. This will remain unlicensed so do whatever you want with it.
+A cli tool to use apple music through your command line on MacOS. Feel free to make a branch and make any kind of modifications and make a PR to it, tbh I'll most likely merge it, or don't. This will remain unlicensed so do whatever you want with it.
 
 ## How to install
 
